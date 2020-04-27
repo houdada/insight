@@ -10,7 +10,7 @@ import './less/glitch.less';
 import './less/component.less';
 import './less/overrides.less';
 
-
+function () 
 ReactDOM.render(
     <Provider {...stores}>
         {Routes}
